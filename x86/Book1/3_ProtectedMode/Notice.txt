@@ -1,0 +1,3 @@
+Multitasking is scheduled by an Operating System(OS).
+
+And Libraries of Applications include Multithread. So Multithread is scheduled by an Application.
