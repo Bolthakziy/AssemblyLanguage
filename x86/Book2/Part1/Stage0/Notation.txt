@@ -1,0 +1,5 @@
+1. Intel
+  mov eax, 3
+
+2. AT&T
+  mov $3, %eax
