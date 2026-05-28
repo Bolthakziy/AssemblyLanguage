@@ -1,0 +1,26 @@
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+section .bss
+  VariableName  SizeIndicator  Number(Quantity)
+
+
+[Size Indicator]
+1. resb : 1 Byte
+2. resw : 2 Bytes
+3. resd : 4 Bytes
+4. resq : 8 Bytes
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+/* *** *** *** The example *** *** *** */
+
+section .bss
+  a resb 1    ;Size : 1 Byte,  Variable Name : a, Number : 1EA Declaration
+  b resw 2    ;Size : 2 Bytes, Variable Name : b, Number : 2EA Declarations
+  c resd 1    ;Size : 4 Bytes, Variable Name : c, Number : 1EA Declaration
+  d resq 3    ;Size : 8 Bytes, Variable Name : d, Number : 3EA Declarations
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
