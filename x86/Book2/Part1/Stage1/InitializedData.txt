@@ -1,0 +1,26 @@
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+section .data
+  VariableName  SizeIndicator  InitializedValue
+
+
+[Size Indicator]
+1. db : 1 Byte
+2. dw : 2 Bytes
+3. dd : 4 Bytes
+4. dq : 8 Bytes
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+/* *** *** *** The example *** *** *** */
+
+section .data
+  a db 0x33          ;Size : 1 Byte,  Variable Name : a, Initialized Value : 0x33
+  b dw 0x1234        ;Size : 2 Bytes, Variable Name : b, Initialized Value : 0x1234
+  c dd 0x12345678    ;Size : 4 Bytes, Variable Name : c, Initialized Value : 0x12345678
+  d dq 0x1234        ;Size : 8 Bytes, Variable Name : d, Initialized Value : 0x1234
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
